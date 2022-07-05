@@ -1,0 +1,24 @@
+{
+    "name": "eightbityard/contact",
+    "description": "This Package will send email to admin with the contact parameters and store all the user information in databse also.",
+    "type": "library",
+    "license": "MIT",
+    
+    "authors": [
+        {
+            "name": "eightbityard",
+            "email":"8bityard@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "eightbityard\\Contact\\": "src/"
+        }
+    }
+   
+}
