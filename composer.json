@@ -4,6 +4,8 @@
     "type": "library",
     "license": "MIT",
     
+
+
     "authors": [
         {
             "name": "eightbityard",
@@ -18,6 +20,14 @@
     "autoload": {
         "psr-4": {
             "eightbityard\\Contact\\": "src/"
+        }
+    },
+
+    "extra":{
+        "laravel":{
+            "providers":[
+                "eightbityard\\Contact\\ContactServiceProvider"
+            ]
         }
     }
    
